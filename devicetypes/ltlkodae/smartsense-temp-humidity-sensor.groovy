@@ -1,5 +1,5 @@
 /**
- *  SmartSense Temp/Humidity Sensor
+ *  ltlkodae SmartSense Temp/Humidity Sensor
  *
  *  Copyright 2014 SmartThings
  *
@@ -16,7 +16,7 @@
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "SmartSense Temp/Humidity Sensor ltlkodae", namespace: "smartthings", author: "SmartThings", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, ocfDeviceType: "oic.d.thermostat") {
+	definition(name: "ltlkodae SmartSense Temp/Humidity Sensor", namespace: "smartthings", author: "SmartThings", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, ocfDeviceType: "oic.d.thermostat") {
 		capability "Configuration"
 		capability "Battery"
 		capability "Refresh"
@@ -29,7 +29,7 @@ metadata {
 		fingerprint profileId: "0104", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003", manufacturer: "CentraLite", model: "3310-S", deviceJoinName: "Multipurpose Sensor"
 		fingerprint profileId: "0104", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003", manufacturer: "CentraLite", model: "3310-G", deviceJoinName: "Centralite Multipurpose Sensor" //Centralite Temp & Humidity Sensor
 		fingerprint profileId: "0104", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003", manufacturer: "CentraLite", model: "3310", deviceJoinName: "Multipurpose Sensor"
-		fingerprint profileId: "0104", deviceId: "0302", inClusters: "0000,0001,0003,0402", manufacturer: "Heiman", model: "b467083cfc864f5e826459e5d8ea6079", deviceJoinName: "Orvibo Multipurpose Sensor" //Orvibo Temperature & Humidity Sensor
+		fingerprint profileId: "0104", deviceId: "0302", inClusters: "0000l,0001,0003,0402", manufacturer: "Heiman", model: "b467083cfc864f5e826459e5d8ea6079", deviceJoinName: "Orvibo Multipurpose Sensor" //Orvibo Temperature & Humidity Sensor
 		fingerprint profileId: "0104", deviceId: "0302", inClusters: "0000,0001,0003,0402", manufacturer: "HEIMAN", model: "888a434f3cfc47f29ec4a3a03e9fc442", deviceJoinName: "Orvibo Multipurpose Sensor" //Orvibo Temperature & Humidity Sensor
 		fingerprint profileId: "0104",  inClusters: "0000, 0001, 0003, 0009, 0402", manufacturer: "HEIMAN", model: "HT-EM", deviceJoinName: "HEIMAN Multipurpose Sensor" //HEIMAN Temperature & Humidity Sensor
 		fingerprint profileId: "0104",  inClusters: "0000, 0001, 0003, 0402, 0B05", manufacturer: "HEIMAN", model: "HT-EF-3.0", deviceJoinName: "HEIMAN Multipurpose Sensor" //HEIMAN Temperature & Humidity Sensor
